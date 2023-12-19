@@ -88,9 +88,9 @@ if __name__ == "__main__":
     create_dir("files")
 
     """ Hyperparameters """
-    batch_size = 16
+    batch_size = 4
     lr = 1e-4
-    num_epochs = 10
+    num_epochs = 100
     # model_path = os.path.join("files", "model.h5")
     # csv_path = os.path.join("files", "log.csv")
 
